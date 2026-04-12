@@ -15,12 +15,7 @@
 
             font-family: Arial, sans-serif;            
             background: linear-gradient(90deg, rgb(204, 197, 197) 0%, rgba(255, 248, 248, 1) 50%, rgb(241, 223, 211) 100%);
-           /*
-            background-image: url('./assets/Linktree-svg-copia.svg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            
-            */
+           
             height: 100%;
             display: flex;
             align-items: center;
