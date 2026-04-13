@@ -22,18 +22,58 @@
         
 
  <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action" > Sitio Web  </a>
-  <a href="#" class="list-group-item list-group-item-action"> GitHub </a>
-  <a href="#" class="list-group-item list-group-item-action"> Linkedin </a>
-  <a href="#" class="list-group-item list-group-item-action"> Contacto </a>
+  <a href="https://braianbechadev.netlify.app/" class="list-group-item list-group-item-action" > Sitio Web </a>
+  <a href="https://braianbechadev.netlify.app/" class="list-group-item list-group-item-action"> GitHub </a>
+  <a href="https://www.linkedin.com/in/braian-becharouch-790953a6/" class="list-group-item list-group-item-action"> Linkedin </a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="bajarScroll()"> Contacto </a>
 </div>
 
-        
-    </div>
 
+</div>
+
+
+       
+<div class="form1">
+  <div class="calltoaction">
+  <br>
+<h3>si crees que puedo ayudarte...</h3>
+  <h2>Hablemos: </h2>
+  <br> 
+  </div>
+  
+  <form  action="https://formspree.io/f/mjkvvkaj" method="POST" >
+    <div>
+        <label class="lab-nombre" for="nombre">Nombre</label>
+        <input class="inp-nombre" type="text" id="nombre" name="nombre" required>
+      </div>
+      <div>
+        <label class="lab-organizacion" for="organizacion">Organización</label>
+        <input class="inp-organizacion" type="text" id="organizacion" name="organizacion" required>
+      </div>
+      <div>
+        <label class="lab-email" for="email" >Email    </label>
+        <input class="inp-email"  type="text" id="email" name="email" required>
+      </div>
+      <div>
+        <labe class="lab-mensaje" for="mensaje">Mensaje</label>
+        <textarea class="inp-mensaje" id="mensaje" name="mensaje" required  rows="8" cols="35"></textarea>
+      </div>
+      <button  type="submit" class="button"> <i class="fa fa-paper-plane"></i> Enviar </button>
+    </form>
+</div>
    
 </body>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+
+  function bajarScroll() {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
 </html>
