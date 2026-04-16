@@ -145,7 +145,7 @@ body::before {
    background-color: var(--color-purpura);
 }
 
-.form1 .inp-nombre ,  .inp-email ,  .inp-organizacion ,  .inp-mensaje ,  .inp-organizacion
+.form1 .inp-nombre ,  .inp-email ,  .inp-organizacion ,  .inp-mensaje 
 {
     margin: 1rem;
     height: 1rem ;
@@ -153,7 +153,7 @@ body::before {
     padding: 1rem;
     border: solid 2px rgb(161 144 135);
     border-radius: 1rem;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     
 } 
 
