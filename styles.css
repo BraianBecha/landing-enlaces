@@ -157,8 +157,16 @@ body::before {
     
 } 
 
+
+.form1 .lab-nombre ,  .lab-email ,  .lab-organizacion ,  .lab-mensaje ,  .lab-organizacion
+{
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    
+} 
+
 .form1 .inp-mensaje{    
-     width: 100%;
+     width: 85%;
      height: 5rem ;
    
 }
@@ -213,7 +221,7 @@ body::before {
 
 .calltoaction{
     font-size: 0.7rem;
-    margin: 0.3rem;
+    margin: 2.3rem;
 }
 
 
